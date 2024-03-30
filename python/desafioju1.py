@@ -5,9 +5,9 @@ def primo(n):
         return True
     if n % 2 == 0 or n % 3 == 0:
         return False
-    i = 5
-    while i * i <= n:
-        if n % i == 0 or n % (i + 2) == 0:
+    g = 5
+    while g * g <= n:
+        if n % g == 0 or n % (i + 2) == 0:
             return False
         i += 6
     return True
