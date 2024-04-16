@@ -1,3 +1,4 @@
+
 def primo(n):
     if n <= 1: 
         return False
@@ -40,3 +41,4 @@ fatorial = 1
 for g in range(1, n+1):
     fatorial *= g
 print(f"Fatorial de {n}! = {fatorial}")
+
