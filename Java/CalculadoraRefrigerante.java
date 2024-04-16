@@ -19,7 +19,8 @@ public class CalculadoraRefrigerante {
 
         if (quantidade < 6) {
             valorTotal = precoPorUnidade * quantidade;
-        } else {
+        } 
+        else {
             valorTotal = precoPorUnidadeComDesconto * quantidade;
         }
 
