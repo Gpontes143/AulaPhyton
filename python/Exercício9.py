@@ -1,4 +1,4 @@
-
+    
 #valor do salario
 salario = float(input("qual o salario do funcionário"))
 
